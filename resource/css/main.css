@@ -59,7 +59,7 @@ header #superBtn button:hover {
     font-size: 68px;
     font-weight: 700;
     background: rgb(255,220,0);
-background: linear-gradient(90deg, rgba(255,220,0,1) 0%, rgba(255,181,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,220,0,1) 0%, rgba(255,181,0,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -76,4 +76,38 @@ background: linear-gradient(90deg, rgba(255,220,0,1) 0%, rgba(255,181,0,1) 100%)
     font-weight: 600;
     cursor: pointer;
     transition: all ease 300ms
+}
+section {
+    margin-bottom: 80px;
+}
+#titleArea h1 {
+    font-size: 46px;
+    font-weight: 400;
+}
+#titleArea hr {
+    width: 68px;
+    margin-top: 20px;
+    height: 2px;
+    border: 0 none;
+    background: var(--color-secondary);
+}
+.flexContainer #flex h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.flexContainer #flex hr {
+    width: 40px;
+    margin-top: 20px;
+    height: 2px;
+    border: 0 none;
+    background: var(--color-secondary);
+}
+.flexBoxes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.flexBoxes #flex h1 {
+    font-size: 24px;
+    font-weight: 600;
 }
