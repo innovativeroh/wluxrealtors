@@ -50,3 +50,30 @@ header #superBtn button:hover {
     color: var(--color-white);
     border: 1px solid var(--color-primary);
 }
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexContainer #flex h1 {
+    font-size: 68px;
+    font-weight: 700;
+    background: rgb(255,220,0);
+background: linear-gradient(90deg, rgba(255,220,0,1) 0%, rgba(255,181,0,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.flexContainer #flex p {
+    font-size: 14.5px;
+    color: var(--color-primary);
+}
+.flexContainer #flex button {
+    padding: 14px 24px;
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 300ms
+}
