@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="./resource/css/main.css">
 <link rel="stylesheet" type="text/css" href="./resource/css/carousel.css">
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<div style="position: fixed; background: #fff; width: 100%; z-index: 9999;">
 <div id='wrapper'>
     <header>
         <div id='logoArea'>
@@ -16,4 +17,5 @@
             <button>Hire Us</button>
         </div>
     </header>
+</div>
 </div>
