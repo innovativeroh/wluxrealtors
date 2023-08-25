@@ -1,4 +1,6 @@
 <link rel="stylesheet" type="text/css" href="./resource/css/main.css">
+<link rel="stylesheet" type="text/css" href="./resource/css/carousel.css">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <div id='wrapper'>
     <header>
         <div id='logoArea'>
